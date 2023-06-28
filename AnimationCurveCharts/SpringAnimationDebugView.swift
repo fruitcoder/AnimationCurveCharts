@@ -72,7 +72,7 @@ struct SpringAnimationDebugView: View {
 
 			Slider(
 				value: $bounce.animation(.interpolatingSpring),
-				in: -0.99...1.0,
+				in: -1.0...1.0,
 				step: 0.1) {
 					Text("Bounce")
 				} minimumValueLabel: {
