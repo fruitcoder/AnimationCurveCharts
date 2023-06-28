@@ -8,17 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		FB2AC2E72A4AEC8D003D7F88 /* AnimationCurveChartsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2AC2E62A4AEC8D003D7F88 /* AnimationCurveChartsApp.swift */; };
-		FB2AC2E92A4AEC8D003D7F88 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2AC2E82A4AEC8D003D7F88 /* ContentView.swift */; };
+		FB2AC2E92A4AEC8D003D7F88 /* UnitCurveAnimationDebugView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2AC2E82A4AEC8D003D7F88 /* UnitCurveAnimationDebugView.swift */; };
 		FB2AC2EB2A4AEC8E003D7F88 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB2AC2EA2A4AEC8E003D7F88 /* Assets.xcassets */; };
 		FB2AC2EE2A4AEC8E003D7F88 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB2AC2ED2A4AEC8E003D7F88 /* Preview Assets.xcassets */; };
+		FB2AC2F52A4AF48E003D7F88 /* UnitCurveAnimatableChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2AC2F42A4AF48E003D7F88 /* UnitCurveAnimatableChart.swift */; };
+		FB2AC2F72A4C4C1A003D7F88 /* SpringAnimationDebugView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2AC2F62A4C4C1A003D7F88 /* SpringAnimationDebugView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		FB2AC2E32A4AEC8D003D7F88 /* AnimationCurveCharts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimationCurveCharts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB2AC2E62A4AEC8D003D7F88 /* AnimationCurveChartsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationCurveChartsApp.swift; sourceTree = "<group>"; };
-		FB2AC2E82A4AEC8D003D7F88 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FB2AC2E82A4AEC8D003D7F88 /* UnitCurveAnimationDebugView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitCurveAnimationDebugView.swift; sourceTree = "<group>"; };
 		FB2AC2EA2A4AEC8E003D7F88 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FB2AC2ED2A4AEC8E003D7F88 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FB2AC2F42A4AF48E003D7F88 /* UnitCurveAnimatableChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitCurveAnimatableChart.swift; sourceTree = "<group>"; usesTabs = 0; };
+		FB2AC2F62A4C4C1A003D7F88 /* SpringAnimationDebugView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpringAnimationDebugView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +56,9 @@
 			isa = PBXGroup;
 			children = (
 				FB2AC2E62A4AEC8D003D7F88 /* AnimationCurveChartsApp.swift */,
-				FB2AC2E82A4AEC8D003D7F88 /* ContentView.swift */,
+				FB2AC2E82A4AEC8D003D7F88 /* UnitCurveAnimationDebugView.swift */,
+				FB2AC2F42A4AF48E003D7F88 /* UnitCurveAnimatableChart.swift */,
+				FB2AC2F62A4C4C1A003D7F88 /* SpringAnimationDebugView.swift */,
 				FB2AC2EA2A4AEC8E003D7F88 /* Assets.xcassets */,
 				FB2AC2EC2A4AEC8E003D7F88 /* Preview Content */,
 			);
@@ -137,7 +143,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FB2AC2E92A4AEC8D003D7F88 /* ContentView.swift in Sources */,
+				FB2AC2F52A4AF48E003D7F88 /* UnitCurveAnimatableChart.swift in Sources */,
+				FB2AC2E92A4AEC8D003D7F88 /* UnitCurveAnimationDebugView.swift in Sources */,
+				FB2AC2F72A4C4C1A003D7F88 /* SpringAnimationDebugView.swift in Sources */,
 				FB2AC2E72A4AEC8D003D7F88 /* AnimationCurveChartsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
